@@ -1,3 +1,5 @@
 # Mipece
 
 Commit 10/05/2018: Añadido el proyecto Mipecé, el cual contendrá una tienda online. De momento únicamente está implementado un index provisional, en el que solamente aparece el logo de la tienda y el diseño de la misma de manera muy genérica. Aún no es definitivo que ésta vaya a ser la distribución del contenido en la página, quizá se decida modificar algunos elementos. Por ahora la parte de la cabecera se ha implementado en el propio index, pero habrá que modificarlo para incluirla en un archivo a parte e implementarla con la directiva include, para no tener que copiar el código completo en cada una de las páginas, puesto que todas llevarán la misma cabecera.
+
+Commit 31/05/2018: Añadidos los paquetes beans, connections, dao, daofactory, filters y utils y el contenido de los mismos. Aún no se ha añadido ninguna funcionalidad al proyecto ni los controladores y vistas del mismo, y en los DAO posiblemente haya que añadir nuevos métodos según se vayan implementando las distintas funcionalidades.
